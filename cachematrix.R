@@ -1,8 +1,6 @@
 ## Programming Assignment2
 
 ## function that creates a special matrix, it checks if the inverse has already been calculated, if so, it gets it from the cache
-
-#function to set functions
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   set <- function(y) {
